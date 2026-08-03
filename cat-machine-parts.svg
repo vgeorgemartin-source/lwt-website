@@ -1,0 +1,58 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <pattern id="hc" width="12.12" height="21" patternUnits="userSpaceOnUse">
+      <g fill="#f5e8cc" stroke="#b07c33" stroke-width="1">
+        <polygon points="0,-7 6.06,-3.5 6.06,3.5 0,7 -6.06,3.5 -6.06,-3.5"/>
+        <polygon points="12.12,-7 18.18,-3.5 18.18,3.5 12.12,7 6.06,3.5 6.06,-3.5"/>
+        <polygon points="6.06,3.5 12.12,7 12.12,14 6.06,17.5 0,14 0,7"/>
+        <polygon points="0,14 6.06,17.5 6.06,24.5 0,28 -6.06,24.5 -6.06,17.5"/>
+        <polygon points="12.12,14 18.18,17.5 18.18,24.5 12.12,28 6.06,24.5 6.06,17.5"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <text x="24" y="30" font-size="12" letter-spacing="2" fill="#2e7d4f" font-weight="bold">MACHINE PARTS · U-CHANNEL CRADLE SET</text>
+
+  <!-- base pad -->
+  <rect x="140" y="330" width="360" height="34" fill="url(#hc)" stroke="#7a4f1d" stroke-width="2"/>
+
+  <!-- U-channel cradles -->
+  <path d="M218,330 L218,248 L232,248 L232,282 L288,282 L288,248 L302,248 L302,330 Z"
+        fill="url(#hc)" stroke="#7a4f1d" stroke-width="2"/>
+  <path d="M348,330 L348,248 L362,248 L362,282 L418,282 L418,248 L432,248 L432,330 Z"
+        fill="url(#hc)" stroke="#7a4f1d" stroke-width="2"/>
+
+  <!-- motor body -->
+  <rect x="200" y="172" width="230" height="110" rx="14" fill="#ffffff" stroke="#3c4a43" stroke-width="2.5"/>
+  <!-- cooling fins -->
+  <g stroke="#9aa8a0" stroke-width="2">
+    <line x1="218" y1="178" x2="218" y2="276"/><line x1="236" y1="178" x2="236" y2="276"/>
+    <line x1="254" y1="178" x2="254" y2="276"/><line x1="272" y1="178" x2="272" y2="276"/>
+    <line x1="290" y1="178" x2="290" y2="276"/><line x1="308" y1="178" x2="308" y2="276"/>
+    <line x1="326" y1="178" x2="326" y2="276"/><line x1="344" y1="178" x2="344" y2="276"/>
+    <line x1="362" y1="178" x2="362" y2="276"/><line x1="380" y1="178" x2="380" y2="276"/>
+    <line x1="398" y1="178" x2="398" y2="276"/><line x1="414" y1="178" x2="414" y2="276"/>
+  </g>
+  <!-- terminal box -->
+  <rect x="282" y="140" width="66" height="32" rx="4" fill="#e8ede9" stroke="#3c4a43" stroke-width="2.5"/>
+  <!-- end bell + shaft -->
+  <rect x="430" y="190" width="20" height="74" rx="6" fill="#e8ede9" stroke="#3c4a43" stroke-width="2.5"/>
+  <rect x="450" y="218" width="34" height="14" fill="#cfd8d3" stroke="#3c4a43" stroke-width="2"/>
+
+  <!-- ground line -->
+  <line x1="120" y1="364" x2="520" y2="364" stroke="#8a8072" stroke-width="1.5"/>
+
+  <!-- leaders + labels -->
+  <g stroke="#2e7d4f" stroke-width="1.4" fill="none">
+    <path d="M218,300 L120,300" stroke-dasharray="4 3"/>
+    <path d="M500,347 L560,347" stroke-dasharray="4 3"/>
+    <path d="M430,158 L520,158" stroke-dasharray="4 3"/>
+  </g>
+  <g font-size="11" fill="#5b5347" letter-spacing="1">
+    <text x="42" y="290">U-CHANNEL</text><text x="42" y="303">CRADLE ×2</text>
+    <text x="564" y="343">BASE</text><text x="564" y="356">PAD</text>
+    <text x="524" y="148">CASTINGS · GEARS</text><text x="524" y="161">MOTORS · PUMPS</text>
+  </g>
+
+  <text x="24" y="404" font-size="11" letter-spacing="1.5" fill="#8a8072">LOAD SPREAD ACROSS THOUSANDS OF CELLS — NO WOOD, NO FOAM</text>
+</svg>

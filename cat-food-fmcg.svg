@@ -1,0 +1,56 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <pattern id="hc" width="12.12" height="21" patternUnits="userSpaceOnUse">
+      <g fill="#f5e8cc" stroke="#b07c33" stroke-width="1">
+        <polygon points="0,-7 6.06,-3.5 6.06,3.5 0,7 -6.06,3.5 -6.06,-3.5"/>
+        <polygon points="12.12,-7 18.18,-3.5 18.18,3.5 12.12,7 6.06,3.5 6.06,-3.5"/>
+        <polygon points="6.06,3.5 12.12,7 12.12,14 6.06,17.5 0,14 0,7"/>
+        <polygon points="0,14 6.06,17.5 6.06,24.5 0,28 -6.06,24.5 -6.06,17.5"/>
+        <polygon points="12.12,14 18.18,17.5 18.18,24.5 12.12,28 6.06,24.5 6.06,17.5"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <text x="24" y="30" font-size="12" letter-spacing="2" fill="#2e7d4f" font-weight="bold">FOOD &amp; FMCG · PARTITION TRAY (TOP VIEW)</text>
+
+  <!-- outer tray wall: honeycomb frame -->
+  <path fill-rule="evenodd" fill="url(#hc)" stroke="#7a4f1d" stroke-width="2"
+        d="M150,70 L490,70 L490,350 L150,350 Z  M172,92 L468,92 L468,328 L172,328 Z"/>
+  <!-- tray floor -->
+  <rect x="172" y="92" width="296" height="236" fill="#fdf6e6"/>
+
+  <!-- slot-lock partitions (kraft strips) -->
+  <g fill="#dcbd83" stroke="#7a4f1d" stroke-width="1.5">
+    <rect x="242" y="92" width="10" height="236"/>
+    <rect x="315" y="92" width="10" height="236"/>
+    <rect x="388" y="92" width="10" height="236"/>
+    <rect x="172" y="205" width="296" height="10"/>
+  </g>
+
+  <!-- bottles (top view) in 6 of 8 cells -->
+  <g stroke="#3c4a43" stroke-width="2.5">
+    <g fill="#ffffff">
+      <circle cx="207" cy="148" r="26"/><circle cx="283" cy="148" r="26"/><circle cx="433" cy="148" r="26"/>
+      <circle cx="207" cy="271" r="26"/><circle cx="352" cy="271" r="26"/><circle cx="433" cy="271" r="26"/>
+    </g>
+    <g fill="#e8ede9">
+      <circle cx="207" cy="148" r="11"/><circle cx="283" cy="148" r="11"/><circle cx="433" cy="148" r="11"/>
+      <circle cx="207" cy="271" r="11"/><circle cx="352" cy="271" r="11"/><circle cx="433" cy="271" r="11"/>
+    </g>
+  </g>
+
+  <!-- leaders + labels -->
+  <g stroke="#2e7d4f" stroke-width="1.4" fill="none">
+    <path d="M490,110 L548,110" stroke-dasharray="4 3"/>
+    <path d="M393,210 L548,210" stroke-dasharray="4 3"/>
+    <path d="M352,148 L352,120 L548,120" stroke-dasharray="4 3" opacity="0"/>
+    <path d="M150,300 L96,300" stroke-dasharray="4 3"/>
+  </g>
+  <g font-size="11" fill="#5b5347" letter-spacing="1">
+    <text x="552" y="106">HONEYCOMB</text><text x="552" y="119">TRAY WALL</text>
+    <text x="552" y="200">SLOT-LOCK</text><text x="552" y="213">PARTITIONS</text>
+    <text x="30" y="290">ONE CELL</text><text x="30" y="303">PER UNIT</text>
+  </g>
+
+  <text x="24" y="404" font-size="11" letter-spacing="1.5" fill="#8a8072">BOTTLES · JARS · CARTONS · VOID FILL — ZERO UNIT-TO-UNIT CONTACT</text>
+</svg>

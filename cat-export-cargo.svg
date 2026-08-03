@@ -1,0 +1,59 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <pattern id="hc" width="12.12" height="21" patternUnits="userSpaceOnUse">
+      <g fill="#f5e8cc" stroke="#b07c33" stroke-width="1">
+        <polygon points="0,-7 6.06,-3.5 6.06,3.5 0,7 -6.06,3.5 -6.06,-3.5"/>
+        <polygon points="12.12,-7 18.18,-3.5 18.18,3.5 12.12,7 6.06,3.5 6.06,-3.5"/>
+        <polygon points="6.06,3.5 12.12,7 12.12,14 6.06,17.5 0,14 0,7"/>
+        <polygon points="0,14 6.06,17.5 6.06,24.5 0,28 -6.06,24.5 -6.06,17.5"/>
+        <polygon points="12.12,14 18.18,17.5 18.18,24.5 12.12,28 6.06,24.5 6.06,17.5"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <text x="24" y="30" font-size="12" letter-spacing="2" fill="#2e7d4f" font-weight="bold">EXPORT CARGO · HONEYCOMB PALLET + EDGE BOARDS</text>
+
+  <!-- carton -->
+  <rect x="200" y="130" width="240" height="170" fill="#fdf9f1" stroke="#c9a15f" stroke-width="4"/>
+  <line x1="320" y1="130" x2="320" y2="300" stroke="#c9a15f" stroke-width="2" stroke-dasharray="8 6"/>
+
+  <!-- angle edge boards on carton corners -->
+  <g fill="#dcbd83" stroke="#7a4f1d" stroke-width="1.8">
+    <path d="M196,126 L226,126 L226,138 L208,138 L208,300 L196,300 Z"/>
+    <path d="M444,126 L414,126 L414,138 L432,138 L432,300 L444,300 Z"/>
+  </g>
+
+  <!-- straps -->
+  <g stroke="#2e7d4f" stroke-width="5">
+    <line x1="262" y1="122" x2="262" y2="336"/>
+    <line x1="378" y1="122" x2="378" y2="336"/>
+  </g>
+  <rect x="254" y="196" width="16" height="22" fill="#ffffff" stroke="#2e7d4f" stroke-width="2"/>
+
+  <!-- pallet deck -->
+  <rect x="150" y="300" width="340" height="22" fill="url(#hc)" stroke="#7a4f1d" stroke-width="2"/>
+  <!-- pallet blocks -->
+  <g fill="url(#hc)" stroke="#7a4f1d" stroke-width="2">
+    <rect x="158" y="322" width="54" height="34"/>
+    <rect x="293" y="322" width="54" height="34"/>
+    <rect x="428" y="322" width="54" height="34"/>
+  </g>
+  <!-- ground -->
+  <line x1="120" y1="356" x2="520" y2="356" stroke="#8a8072" stroke-width="1.5"/>
+  <!-- fork arrow -->
+  <path d="M236,339 L268,339 M263,333 L268,339 L263,345" fill="none" stroke="#8a8072" stroke-width="2"/>
+
+  <!-- leaders + labels -->
+  <g stroke="#2e7d4f" stroke-width="1.4" fill="none">
+    <path d="M444,160 L540,160" stroke-dasharray="4 3"/>
+    <path d="M490,311 L540,311" stroke-dasharray="4 3"/>
+    <path d="M150,340 L96,340" stroke-dasharray="4 3"/>
+  </g>
+  <g font-size="11" fill="#5b5347" letter-spacing="1">
+    <text x="544" y="152">ANGLE EDGE</text><text x="544" y="165">BOARDS</text>
+    <text x="544" y="302">PAPER PALLET</text><text x="544" y="315">ISPM-15</text><text x="544" y="328">EXEMPT</text>
+    <text x="34" y="330">FORK</text><text x="34" y="343">ENTRY</text>
+  </g>
+
+  <text x="24" y="404" font-size="11" letter-spacing="1.5" fill="#8a8072">NO FUMIGATION · NO WOOD DECLARATION — SHIPS ANYWHERE, LIGHTER FREIGHT</text>
+</svg>
